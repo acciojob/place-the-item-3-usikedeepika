@@ -1,2 +1,13 @@
 
 /* Your CSS Code here. */
+.item{
+	width:200px;
+	height:200px;
+	background-color:yellow;
+}
+.holder {
+  display: flex;
+  flex-direction: row; /* Items align horizontally */
+  flex-wrap: wrap;    /* Items wrap onto the next row if necessary */
+	justify-content:space-evenly;
+}
